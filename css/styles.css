@@ -303,6 +303,8 @@ margin-bottom: 16px;
 }
 .client-title{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .client-item:not(:last-child){
     margin-right: 30px;
