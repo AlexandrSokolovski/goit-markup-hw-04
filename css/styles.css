@@ -113,13 +113,13 @@ fill: currentColor;
 .main{
 width: 1600px;
 text-align: center;
-margin: 0;
+margin: 0 auto;
 padding-top: 200px;
 padding-bottom: 200px;
 background-image: linear-gradient(to right, 
 rgba(47, 48, 58, 0.4), 
 rgba(47, 48, 58, 0.4) ), 
-url(../images/overlay.jpg);
+url(../images/people.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
@@ -337,9 +337,7 @@ border-radius: 4px;
 background: var(--background2-color);
 }
 .footer{
-    display: flex;
-    align-items: baseline;
-    
+    margin-top: 0;
 }
 .studio{
 color: var(--white-color);
@@ -356,29 +354,15 @@ letter-spacing: 0.03em;
 color: var(--white-color);
 }
 .adress-item{
-    margin-top: 9px;
+    
 }
 
 .color{
     color: rgba(255, 255, 255, 0.6);
 }
-.social-footer{
-    margin-left: 70px;
-}
-.soc-title{
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 1.1;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    margin-bottom: 20px;
-}
-.soc-logo{
-    display: flex;
-}
-.soc-list:not(:last-child){
-    margin-right: 10px;
+
+.footer-contacts{
+  margin-top: 9px;
 }
 /* Портфолио */
 
