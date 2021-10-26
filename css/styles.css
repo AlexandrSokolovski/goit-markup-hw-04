@@ -366,6 +366,26 @@ color: var(--white-color);
 .footer-contacts{
   margin-top: 9px;
 }
+
+.social-footer{
+    margin-left: 70px;
+}
+.soc-title{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.soc-logo{
+    display: flex;
+}
+.soc-list:not(:last-child){
+    margin-right: 10px;
+
+    
 /* Портфолио */
 
 
