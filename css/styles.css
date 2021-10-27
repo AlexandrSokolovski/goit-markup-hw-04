@@ -337,9 +337,12 @@ border-radius: 4px;
     padding-top: 60px;
     padding-bottom: 60px;
 background: var(--background2-color);
+display: flex;
+align-items: baseline;
 }
 .footer{
-    margin-top: 0;
+    margin-left: 215px;
+    margin-top: 40px;
 }
 .studio{
 color: var(--white-color);
@@ -356,18 +359,27 @@ letter-spacing: 0.03em;
 color: var(--white-color);
 }
 .adress-item{
-    
+margin: 9px;
+
 }
 
 .color{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-contacts{
-  margin-top: 9px;
+    
+  margin: 9px;
 }
 
 .social-footer{
+    margin-top: 60px;
     margin-left: 70px;
 }
 .soc-title{
