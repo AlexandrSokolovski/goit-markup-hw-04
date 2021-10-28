@@ -396,8 +396,7 @@ letter-spacing: 0.03em;
 }
 .soc-list:not(:last-child){
     margin-right: 10px;
-
-    
+}
 /* Портфолио */
 
 .portfolio-title{
